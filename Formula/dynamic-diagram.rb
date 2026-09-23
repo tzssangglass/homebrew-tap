@@ -1,25 +1,25 @@
 class DynamicDiagram < Formula
   desc "Portable diagram/simulation engine: JSON spec -> SVG/PNG/kitty/animated frames"
   homepage "https://github.com/tzssangglass/dynamic-diagram"
-  version "0.2.1"
+  version "0.2.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tzssangglass/dynamic-diagram/releases/download/v0.2.1/dynamic-diagram-aarch64-apple-darwin.tar.gz"
-      sha256 "eb3a9529ce89a3742a4b0494b9bce46eebd4e2493822eeac43c4542c8d472053"
+      url "https://github.com/tzssangglass/dynamic-diagram/releases/download/v0.2.2/dynamic-diagram-aarch64-apple-darwin.tar.gz"
+      sha256 "6bb2150d5cb827e64ad8314097742a817f0449472653cc1b0cefd4aa082e1908"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tzssangglass/dynamic-diagram/releases/download/v0.2.1/dynamic-diagram-x86_64-apple-darwin.tar.gz"
-      sha256 "3dd4a820f667c1c579dda7e9742a3f5537c8bda9e099b6b122a531a35cccd84e"
+      url "https://github.com/tzssangglass/dynamic-diagram/releases/download/v0.2.2/dynamic-diagram-x86_64-apple-darwin.tar.gz"
+      sha256 "03eb87ba154416af53c0c0b902a8002d9298b1b49bbd5e32b1f0b208c34e939e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tzssangglass/dynamic-diagram/releases/download/v0.2.1/dynamic-diagram-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1ebba8954789941f0d71bb50bf9beedc08e19c209da4ec145989248260fadd61"
+      url "https://github.com/tzssangglass/dynamic-diagram/releases/download/v0.2.2/dynamic-diagram-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7b24703f432e791dcb5d39a7e0c5e494df7b0aafe71706492b2e8e2b60edcf00"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tzssangglass/dynamic-diagram/releases/download/v0.2.1/dynamic-diagram-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f1097a2423eb8ac3999b0dac4312295d9ee4f41c11ff8b81a51610ecf8f2243a"
+      url "https://github.com/tzssangglass/dynamic-diagram/releases/download/v0.2.2/dynamic-diagram-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "807d10e9939ef6d27c5de9e787dbf062e17054d9a6342b6d7e30f77f83211b41"
     end
   end
   license "MIT"
